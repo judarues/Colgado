@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #BDC2D6;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Vista.PlayController">
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #BDC2D6;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Text fill="#1d3076" layoutX="467.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EL COLGADO">
          <font>
@@ -72,7 +72,7 @@
             </Text>
          </children>
       </Pane>
-      <Button layoutX="1178.0" layoutY="583.0" mnemonicParsing="false" onAction="#initialize" prefHeight="38.0" prefWidth="79.0" style="-fx-background-radius: 62; -fx-background-color: #5162F4;" text="Siguiente">
+      <Button layoutX="1178.0" layoutY="583.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="79.0" style="-fx-background-radius: 62; -fx-background-color: #5162F4;" text="Siguiente">
          <font>
             <Font name="Arial Black" size="12.0" />
          </font>

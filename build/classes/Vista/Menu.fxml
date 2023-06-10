@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Text?>
 
 
-    <AnchorPane prefHeight="588.0" prefWidth="869.0" style="-fx-background-color: #BDC2D6; -fx-pref-width: 1280; -fx-pref-height: 720;" fx:controller="Vista.MenuController" fx:controller="Vista.MenuController">
+    <AnchorPane prefHeight="588.0" prefWidth="869.0" style="-fx-background-color: #BDC2D6; -fx-pref-width: 1280; -fx-pref-height: 720;" fx:controller="Vista.MenuController">
       <children>
          <Text fill="#1d3076" layoutX="488.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EL COLGADO">
             <font>
