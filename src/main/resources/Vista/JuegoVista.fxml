@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #BDC2D6; -fx-pref-height: 720; -fx-pref-width: 1280;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="Controlador.JuegoController">
+   <children>
+      <Pane fx:id="paneFrase" layoutX="183.0" layoutY="67.0" prefHeight="115.0" prefWidth="1093.0" style="-fx-pref-height: 130; -fx-pref-width: 900; -fx-background-color: #D9D9D9; -fx-background-radius: 47;">
+         <children>
+            <TextField fx:id="txtBox0" layoutX="47.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox1" layoutX="87.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox2" layoutX="128.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox3" layoutX="168.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox4" layoutX="209.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox5" layoutX="250.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox6" layoutX="291.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox7" layoutX="331.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox8" layoutX="372.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox9" layoutX="413.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox10" layoutX="454.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox11" layoutX="494.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox12" layoutX="535.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox13" layoutX="576.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox14" layoutX="617.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox15" layoutX="659.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox16" layoutX="700.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox17" layoutX="741.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox18" layoutX="782.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+            <TextField fx:id="txtBox19" layoutX="821.0" layoutY="49.0" prefHeight="27.0" prefWidth="25.0" style="-fx-pref-height: 32; -fx-pref-width: 32; -fx-background-color: #D9D9D9; -fx-border-color: transparent transparent black transparent;" />
+         </children>
+      </Pane>
+      <Button layoutX="55.0" layoutY="264.0" mnemonicParsing="false" style="-fx-background-color: #2964FB; -fx-pref-height: 37; -fx-pref-width: 80; -fx-background-radius: 31;" text="PISTAS">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Button>
+      <Pane fx:id="paneTeclado" layoutX="345.0" layoutY="203.0" prefHeight="209.0" prefWidth="577.0">
+         <children>
+            <Button fx:id="Btn_A" layoutX="26.0" layoutY="18.0" mnemonicParsing="false" onKeyPressed="#A" prefHeight="50.0" prefWidth="50.0" text="A">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_B" layoutX="86.0" layoutY="18.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_C" layoutX="146.0" layoutY="19.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="C">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_D" layoutX="206.0" layoutY="19.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="D">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_E" layoutX="266.0" layoutY="19.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_F" layoutX="326.0" layoutY="19.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="F">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_G" layoutX="386.0" layoutY="20.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="G">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_H" layoutX="446.0" layoutY="20.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="H">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_I" layoutX="506.0" layoutY="20.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="I">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_J" layoutX="27.0" layoutY="79.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="J">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_K" layoutX="87.0" layoutY="79.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="K">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_L" layoutX="147.0" layoutY="80.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="L">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_M" layoutX="207.0" layoutY="80.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="M">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_N" layoutX="267.0" layoutY="80.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="N">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Ñ" layoutX="327.0" layoutY="80.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="Ñ">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_O" layoutX="387.0" layoutY="81.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="O">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_P" layoutX="447.0" layoutY="81.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="P">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Q" layoutX="507.0" layoutY="81.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="Q">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_R" layoutX="28.0" layoutY="140.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="R">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_S" layoutX="88.0" layoutY="140.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="S">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_T" layoutX="148.0" layoutY="141.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="T">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_U" layoutX="208.0" layoutY="141.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="U">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_V" layoutX="268.0" layoutY="141.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="V">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_W" layoutX="328.0" layoutY="141.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="W">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_X" layoutX="388.0" layoutY="142.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="X">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Y" layoutX="448.0" layoutY="142.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="Y">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Btn_Z" layoutX="508.0" layoutY="142.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="49.0" text="Z">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="55.0" layoutY="635.0" prefHeight="59.0" prefWidth="220.0" style="-fx-background-color: #DEB344; -fx-pref-height: 59; -fx-pref-width: 323; -fx-border-color: #000000;">
+         <children>
+            <Text layoutX="11.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="11.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puntaje:">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="97.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jugador #1">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="99.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="489.0" layoutY="635.0" prefHeight="59.0" prefWidth="220.0" style="-fx-background-color: #383FE9; -fx-pref-height: 59; -fx-pref-width: 323; -fx-border-color: #000000;">
+         <children>
+            <Text layoutX="11.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="11.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puntaje:">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="97.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jugador #2">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="99.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="923.0" layoutY="635.0" prefHeight="59.0" prefWidth="220.0" style="-fx-background-color: #B63108; -fx-pref-height: 59; -fx-pref-width: 323; -fx-border-color: #000000;">
+         <children>
+            <Text layoutX="11.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="11.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puntaje:">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="97.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jugador #3">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="99.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Segoe UI Black" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="76.0" layoutY="413.0" prefHeight="209.0" prefWidth="267.0" style="-fx-border-color: black;" />
+      <Pane layoutX="517.0" layoutY="413.0" prefHeight="209.0" prefWidth="267.0" style="-fx-border-color: black;" />
+      <Pane layoutX="950.0" layoutY="413.0" prefHeight="209.0" prefWidth="267.0" style="-fx-border-color: black;" />
+   </children>
+</AnchorPane>

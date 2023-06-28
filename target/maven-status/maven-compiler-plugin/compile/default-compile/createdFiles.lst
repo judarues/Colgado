@@ -1,5 +1,10 @@
+Modelo\FraseModelo.class
+Modelo\TopicoModelo.class
+colgado\colgado\SecondaryController.class
+AccesoDatos\ConexionMySql.class
+AccesoDatos\FrasesDA.class
 Controlador\ReglasController.class
 module-info.class
 Modelo\Jugador.class
 colgado\colgado\App.class
-colgado\colgado\SecondaryController.class
+Controlador\MenuController.class

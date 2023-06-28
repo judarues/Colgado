@@ -11,8 +11,15 @@ import javafx.scene.layout.Pane;
 import javafx.event.ActionEvent;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
+import AccesoDatos.ConexionMySql;
+import Modelo.FraseModelo;
 
-public class MenuController  {
+public class MenuController {
+
+    @FXML
+    private void testCnx() {
+
+    }
 
     // Método para cambiar a la vista de reglas
     @FXML
@@ -38,14 +45,16 @@ public class MenuController  {
     private Button btn_topicoFrase;
     @FXML
     private Button btn_puntos;
-    
+
     @FXML
-    private RadioButton btn_unJugador;
+    private ToggleGroup rdb_Jugadores;
     @FXML
-    private RadioButton btn_dosJugadores;
+    private RadioButton rdb_unJugador;
     @FXML
-    private RadioButton btn_tresJugadores;
-    
+    private RadioButton rdb_dosJugadores;
+    @FXML
+    private RadioButton rdb_tresJugadores;
+
     @FXML
     private Pane nombre_unJugador;
 
@@ -54,6 +63,9 @@ public class MenuController  {
 
     @FXML
     private Pane nombre_tresJugador;
+
+    @FXML
+    private ToggleGroup rdb_tiempo ;
     
     @FXML
     private RadioButton btn_15S;
@@ -64,13 +76,12 @@ public class MenuController  {
     @FXML
     private RadioButton btn_60S;
 
-
     // Método para manejar el evento de clic en los botones
     @FXML
     private void handleButtonAction(ActionEvent event) {
         // Arreglo de los paneles
-        Pane[] panes = {pane_jugadores, pane_tiempoLimite,pane_topicoFrase, pane_puntos};
-        
+        Pane[] panes = {pane_jugadores, pane_tiempoLimite, pane_topicoFrase, pane_puntos};
+
         // Obtiene el botón que fue clicado
         Button clickedButton = (Button) event.getSource();
 
@@ -108,22 +119,22 @@ public class MenuController  {
                 break;
         }
     }
-    
+
     //Oculta campos dependiendo de numero de jugadores
     @FXML
     public void initialize() {
         // Oculta campos dependiendo del número de jugadores
-        btn_unJugador.setOnAction(e -> {
+        rdb_unJugador.setOnAction(e -> {
             nombre_dosJugador.setVisible(false);
             nombre_tresJugador.setVisible(false);
         });
 
-        btn_dosJugadores.setOnAction(e -> {
+        rdb_dosJugadores.setOnAction(e -> {
             nombre_dosJugador.setVisible(true);
             nombre_tresJugador.setVisible(false);
         });
 
-        btn_tresJugadores.setOnAction(e -> {
+        rdb_tresJugadores.setOnAction(e -> {
             nombre_dosJugador.setVisible(true);
             nombre_tresJugador.setVisible(true);
         });
@@ -157,7 +168,3 @@ public class MenuController  {
     }
 
 }
-    
-    
-
-

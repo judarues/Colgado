@@ -4,6 +4,7 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
@@ -66,10 +67,13 @@
                               <Font name="Segoe UI Black" size="17.0" />
                            </font>
                         </Text>
-                        <RadioButton fx:id="btn_15S" layoutX="14.0" layoutY="69.0" mnemonicParsing="false" text=" 15 S" textFill="#1d3076" />
-                        <RadioButton fx:id="btn_30S" layoutX="104.0" layoutY="69.0" mnemonicParsing="false" text="30 S" textFill="#1d3076" />
-                        <RadioButton fx:id="btn_45S" layoutX="181.0" layoutY="70.0" mnemonicParsing="false" text="45 S" textFill="#1d3076" />
-                        <RadioButton fx:id="btn_60S" layoutX="252.0" layoutY="66.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="47.0" text="60 S" textFill="#1d3076" />
+                        <RadioButton fx:id="btn_15S" layoutX="14.0" layoutY="69.0" mnemonicParsing="false" text=" 15 S" textFill="#1d3076">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="rdb_tiempo" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton fx:id="btn_30S" layoutX="104.0" layoutY="69.0" mnemonicParsing="false" text="30 S" textFill="#1d3076" toggleGroup="$rdb_tiempo" />
+                        <RadioButton fx:id="btn_45S" layoutX="181.0" layoutY="70.0" mnemonicParsing="false" text="45 S" textFill="#1d3076" toggleGroup="$rdb_tiempo" />
+                        <RadioButton fx:id="btn_60S" layoutX="252.0" layoutY="66.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="47.0" text="60 S" textFill="#1d3076" toggleGroup="$rdb_tiempo" />
                      </children>
                   </Pane>
                </children>
@@ -129,17 +133,20 @@
                <children>
                   <Pane layoutX="207.0" layoutY="96.0" prefHeight="97.0" prefWidth="287.0" style="-fx-background-color: #D9D9D9; -fx-background-radius: 35;">
                      <children>
-                        <RadioButton fx:id="btn_unJugador" layoutX="76.0" layoutY="55.0" mnemonicParsing="false" prefWidth="37.0" text="1">
+                        <RadioButton fx:id="rdb_unJugador" layoutX="76.0" layoutY="55.0" mnemonicParsing="false" prefWidth="37.0" text="1">
+                           <font>
+                              <Font name="Segoe UI Black" size="12.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="rdb_Jugadores" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rdb_dosJugadores" layoutX="128.0" layoutY="55.0" mnemonicParsing="false" text="2" toggleGroup="$rdb_Jugadores">
                            <font>
                               <Font name="Segoe UI Black" size="12.0" />
                            </font>
                         </RadioButton>
-                        <RadioButton fx:id="btn_dosJugadores" layoutX="128.0" layoutY="55.0" mnemonicParsing="false" text="2">
-                           <font>
-                              <Font name="Segoe UI Black" size="12.0" />
-                           </font>
-                        </RadioButton>
-                        <RadioButton fx:id="btn_tresJugadores" layoutX="182.0" layoutY="55.0" mnemonicParsing="false" text="3">
+                        <RadioButton fx:id="rdb_tresJugadores" layoutX="182.0" layoutY="55.0" mnemonicParsing="false" text="3" toggleGroup="$rdb_Jugadores">
                            <font>
                               <Font name="Segoe UI Black" size="12.0" />
                            </font>
@@ -189,7 +196,7 @@
                </children>
             </Pane>
          </children></Pane>
-        <Button alignment="CENTER" layoutX="560.0" layoutY="637.0" mnemonicParsing="false" onMouseClicked="#switchToReglas" prefHeight="38.0" prefWidth="79.0" style="-fx-background-radius: 62; -fx-background-color: #5162F4;" text="Jugar">
+        <Button alignment="CENTER" layoutX="560.0" layoutY="637.0" mnemonicParsing="false" onMouseClicked="#testCnx" prefHeight="38.0" prefWidth="79.0" style="-fx-background-radius: 62; -fx-background-color: #5162F4;" text="Jugar">
             <font>
                 <Font name="Cooper Black" size="14.0" />
             </font>
